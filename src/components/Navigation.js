@@ -1,30 +1,38 @@
 // Contains navigation links for About, Portfolio, Contact, and Resume sections.
 
 import React from 'react';
-import '../styles/Navbar.css';
+import '../styles/navigation.css';
+import { Link, useLocation } from 'react-router-dom';
 
-// By importing the Navbar.css file, it is added to the DOM whenever this component loads
+function Navigation() {
+    const location = useLocation();
 
-// We can also style a component inside of its JavaScript file by adding style properties to its rendered elements
-// Unlike regular HTML, a JSX style property must be an object instead of a string
-// On a style object, we camelCase all property names, and put all of the values in quotes
-// Non quoted values default to "pixels", e.g. height, margin, padding
-
-const styles = {
-  navbarStyle: {
-    background: 'green',
-    justifyContent: 'flex-end',
-  },
-};
-
-// We use JSX curly braces to evaluate the style object on the JSX tag
-
-function Navbar() {
-  return (
-    <nav style={styles.navbarStyle} className="navbar">
-      <a href="/">Welcome</a>
-    </nav>
-  );
+    return (
+        <nav>
+            <ul>
+                <li>
+                    <Link to="/" className={location.pathname === "/" ? "active" : ""}>
+                        About Me
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/portfolio" className={location.pathname === "/portfolio" ? "active" : ""}>
+                        Portfolio
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>
+                        Contact
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/resume" className={location.pathname === "/resume" ? "active" : ""}>
+                        Resume
+                    </Link>
+                </li>
+            </ul>
+        </nav>
+    );
 }
 
-export default Navbar;
+export default Navigation;
