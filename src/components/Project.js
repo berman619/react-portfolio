@@ -1,3 +1,5 @@
+// Represents a single project. Includes an image, title, and links to the deployed application and GitHub repository.
+
 import React from 'react';
 import '../styles/Project.css';
 

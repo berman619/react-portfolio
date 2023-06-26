@@ -1,0 +1,1 @@
+// Contains a list of projects. Each project is represented by the Project component.

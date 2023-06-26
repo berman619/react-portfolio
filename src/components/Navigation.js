@@ -1,3 +1,5 @@
+// Contains navigation links for About, Portfolio, Contact, and Resume sections.
+
 import React from 'react';
 import '../styles/Navbar.css';
 

@@ -1,0 +1,1 @@
+// Contains a recent photo/avatar and a short bio.

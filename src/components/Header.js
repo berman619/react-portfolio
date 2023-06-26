@@ -1,3 +1,5 @@
+// Contains my name and the Navigation component.
+
 import React from 'react';
 import '../styles/Header.css';
 
