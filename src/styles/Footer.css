@@ -1,12 +1,11 @@
 .footer {
-padding: 20px;
-background-color: #3498DB;
-text-align: center;
+    padding: 20px;
+    background-color: #003459;
+    text-align: center;
 }
 
 .footer a {
-margin: 0 10px;
-color: #ECF0F1;
-text-decoration: none;
+    margin: 0 10px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
-  

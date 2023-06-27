@@ -7,7 +7,7 @@ import '../styles/Footer.css';
 
 function Footer() {
     return (
-        <div className="footer">
+        <div className="footer" sticky-bottom>
             <a href="https://github.com/berman619" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>

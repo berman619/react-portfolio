@@ -3,16 +3,16 @@
     flex-direction: column;
     max-width: 500px;
     margin: 0 auto;
-  }
+}
 
 .contact label {
-margin-top: 10px;
+    margin-top: 10px;
+    color: #003459;
 }
 
 .contact input, .contact textarea {
-margin-top: 5px;
-padding: 10px;
-border: 1px solid #2C3E50;
-border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #003459;
+    border-radius: 5px;
 }
-  

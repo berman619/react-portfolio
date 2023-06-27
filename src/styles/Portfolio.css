@@ -6,30 +6,16 @@
 
 .project-card {
     width: calc(33.3333% - 20px);
+    margin-bottom: 20px;
 }
 
-.portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px;
-  }
-
-.project {
-width: calc(33.33% - 20px);
-margin: 10px;
-padding: 10px;
-border: 1px solid #2C3E50;
-border-radius: 10px;
+.project-card img {
+    width: 100%;
+    object-fit: cover;
 }
 
-.project img {
-width: 100%;
-height: 200px;
-object-fit: cover;
+@media (max-width: 768px) {
+    .project-card {
+        width: 100%;
+    }
 }
-  
-.project h3, .project a {
-    margin-top: 10px;
-}
-  
