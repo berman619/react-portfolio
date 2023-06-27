@@ -8,25 +8,25 @@ function Navigation() {
     const location = useLocation();
 
     return (
-        <nav>
-            <ul>
-                <li>
-                    <Link to="/" className={location.pathname === "/" ? "active" : ""}>
+        <nav className="nav">
+            <ul className="nav">
+                <li className="nav-item">
+                    <Link to="/" className={`nav-link ${location.pathname === "/" ? "active" : ""}`}>
                         About Me
                     </Link>
                 </li>
-                <li>
-                    <Link to="/portfolio" className={location.pathname === "/portfolio" ? "active" : ""}>
+                <li className="nav-item">
+                    <Link to="/portfolio" className={`nav-link ${location.pathname === "/portfolio" ? "active" : ""}`}>
                         Portfolio
                     </Link>
                 </li>
-                <li>
-                    <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>
+                <li className="nav-item">
+                    <Link to="/contact" className={`nav-link ${location.pathname === "/contact" ? "active" : ""}`}>
                         Contact
                     </Link>
                 </li>
-                <li>
-                    <Link to="/resume" className={location.pathname === "/resume" ? "active" : ""}>
+                <li className="nav-item">
+                    <Link to="/resume" className={`nav-link ${location.pathname === "/resume" ? "active" : ""}`}>
                         Resume
                     </Link>
                 </li>

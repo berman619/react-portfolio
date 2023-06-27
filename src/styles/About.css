@@ -1,18 +1,18 @@
-.about {
+.about-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
   }
 
-.about img {
+.about-section img {
 width: 150px;
 height: 150px;
 border-radius: 50%;
 object-fit: cover;
 }
 
-.about p {
+.about-section p {
 margin-top: 20px;
 font-size: 18px;
 line-height: 1.6;
