@@ -1,0 +1,9 @@
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-card {
+    width: calc(33.3333% - 20px);
+}
