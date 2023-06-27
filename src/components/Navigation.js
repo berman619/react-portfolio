@@ -1,7 +1,7 @@
 // Contains navigation links for About, Portfolio, Contact, and Resume sections.
 
 import React from 'react';
-import '../styles/navigation.css';
+import '../styles/Navigation.css';
 import { Link, useLocation } from 'react-router-dom';
 
 function Navigation() {

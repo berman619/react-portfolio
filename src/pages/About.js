@@ -6,7 +6,7 @@ import '../styles/About.css';
 function About() {
     return (
         <div className="about-section">
-            <img src="public/images/49DDF4C8-149B-4571-B1AB-905CF893587C.JPG" alt="Zach Berger" />
+            <img src="images/49DDF4C8-149B-4571-B1AB-905CF893587C.JPG" alt="Zach Berger" />
             <p>
             I'm Zach Berger, a full stack web developer from New York, NY. Passionate about technology and driven by curiosity, I pursued web development to understand the underlying technology behind websites and build robust web applications.
 
