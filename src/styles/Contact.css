@@ -1,0 +1,18 @@
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+.contact label {
+margin-top: 10px;
+}
+
+.contact input, .contact textarea {
+margin-top: 5px;
+padding: 10px;
+border: 1px solid #2C3E50;
+border-radius: 5px;
+}
+  

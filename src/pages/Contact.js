@@ -1,7 +1,7 @@
 // Contains a contact form with fields for name, email, and a message.
 
 import React, { useState } from 'react';
-import './Contact.css';
+import '../styles/Contact.css';
 
 function Contact() {
   const [name, setName] = useState("");

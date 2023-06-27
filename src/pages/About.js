@@ -1,7 +1,7 @@
 // Contains a recent photo/avatar and a short bio.
 
 import React from 'react';
-import './About.css';
+import '../styles/About.css';
 
 function About() {
     return (

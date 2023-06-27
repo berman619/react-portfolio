@@ -1,8 +1,8 @@
 // Contains a list of projects. Each project is represented by the Project component.
 
 import React from 'react';
-import Project from './Project';
-import './Portfolio.css';
+import Project from '../components/Project';
+import '../styles/Portfolio.css';
 
 function Portfolio() {
     const projects = [

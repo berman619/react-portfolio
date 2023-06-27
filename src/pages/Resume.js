@@ -1,7 +1,7 @@
 // Contains a link to a downloadable resume and a list of my professional skills or proficiencies.
 
 import React from 'react';
-import './Resume.css'; 
+import '../styles/Resume.css'; 
 
 function Resume() {
     return (

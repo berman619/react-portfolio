@@ -1,7 +1,7 @@
 // Represents a single project. Includes an image, title, and links to the deployed application and GitHub repository.
 
 import React from 'react';
-import './Project.css';  // If you have a separate CSS file for Project
+import '../styles/Project.css';
 
 function Project({ project }) {
     return (
