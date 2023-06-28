@@ -1,15 +1,24 @@
-// Represents a single project. Includes an image, title, and links to the deployed application and GitHub repository.
-
+// Project.js
 import React from 'react';
 import '../styles/Project.css';
+import { FiExternalLink, FiGithub } from 'react-icons/fi';
 
 function Project({ project }) {
     return (
         <div className="project-card">
-            <img src={project.image} alt={project.title} />
-            <h3>{project.title}</h3>
-            <a href={project.deployed}>Deployed App</a>
-            <a href={project.github}>GitHub Repo</a>
+            <div className="image-container">
+                <div style={{ width: '80%', margin: '0 auto' }}>
+                    <img src={project.image} alt={project.title} />
+                </div>
+                <div className="overlay">
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+                    <div className="links">
+                        <a href={project.deployed} target="_blank" rel="noreferrer"><FiExternalLink size={20} /></a>
+                        <a href={project.github} target="_blank" rel="noreferrer"><FiGithub size={20} /></a>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
