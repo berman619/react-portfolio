@@ -2,9 +2,15 @@
 
 import React from 'react';
 import '../styles/Resume.css'; 
+import { motion } from "framer-motion";
 
 function Resume() {
     return (
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 1 }}>
         <div className="resume">
             <a href="path_to_your_resume.pdf" download className="resume-download">
                 Download My Resume
@@ -33,6 +39,7 @@ function Resume() {
                 <li>Lightroom</li>
             </ul>
         </div>
+        </motion.div>
     );
 }
 

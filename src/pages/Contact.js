@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import '../styles/Contact.css';
+import { motion } from "framer-motion";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -30,6 +31,11 @@ function Contact() {
   };
 
   return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1 }}>
     <div className="container">
       <form onSubmit={handleFormSubmit}>
         <div className="form-group">
@@ -66,6 +72,7 @@ function Contact() {
         <button type="submit" className="btn btn-primary">Submit</button>
       </form>
     </div>
+    </motion.div>
   );
 }
 

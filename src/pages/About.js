@@ -2,9 +2,15 @@
 
 import React from 'react';
 import '../styles/About.css';
+import { motion } from "framer-motion";
 
 function About() {
     return (
+        <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1 }}>
         <div className="about-section">
             <img src="images/49DDF4C8-149B-4571-B1AB-905CF893587C.JPG" alt="Zach Berger" />
             <p>
@@ -19,6 +25,7 @@ function About() {
             I'm excited to embark on this new career path as a full stack web developer, leveraging my skills and experiences to create innovative web applications. Let's build something amazing together!
             </p>
         </div>
+        </motion.div>
     );
 }
 
