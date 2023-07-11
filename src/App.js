@@ -9,7 +9,7 @@ function App() {
   return (
     <AnimatePresence>
       <BrowserRouter>
-        <div>
+        <div className="app">
           <Header />
           <Content />
           <Footer />

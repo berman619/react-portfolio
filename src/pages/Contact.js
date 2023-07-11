@@ -32,12 +32,13 @@ function Contact() {
 
   return (
     <motion.div
+      className="contact-page"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1 }}>
     <div className="container">
-      <form onSubmit={handleFormSubmit}>
+    <form id="contactForm" onSubmit={handleFormSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name</label>
           <input

@@ -7,6 +7,7 @@ import Resume from './Resume';
 
 function Content() {
     return (
+      <div className="content">
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
@@ -14,6 +15,7 @@ function Content() {
         <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      </div>
     );
 }
 

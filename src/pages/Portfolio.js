@@ -32,7 +32,7 @@ function Portfolio() {
             github: 'https://github.com/mark-227-g/stellarwatch' 
         },
         { 
-            image: '/images/project3.jpg', 
+            image: '/images/project3.png', 
             title: 'Project 3', 
             description: 'This project is a work in progress! Check back soon.',
             deployed: '', 
