@@ -1,5 +1,3 @@
-// Contains a link to a downloadable resume and a list of my professional skills or proficiencies.
-
 import React from 'react';
 import '../styles/Resume.css'; 
 import { motion } from "framer-motion";
@@ -81,11 +79,11 @@ function Resume() {
                         <p>Java</p>
                     </div>
                     <div className="skill">
-                        <img src="/images/pslogo.png" alt="Adobe" className="logo" />
+                        <img src={process.env.PUBLIC_URL + "/images/pslogo.png"} alt="Adobe" className="logo" />
                         <p>Photoshop</p>
                     </div>
                     <div className="skill">
-                        <img src="/images/lrlogo.jpg" alt="Adobe" className="logo" />   
+                        <img src={process.env.PUBLIC_URL + "/images/lrlogo.jpg"} alt="Adobe" className="logo" />   
                         <p>Lightroom</p>
                     </div>
                     <div className="skill">

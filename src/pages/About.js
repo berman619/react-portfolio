@@ -12,7 +12,7 @@ function About() {
       exit={{ opacity: 0 }}
       transition={{ duration: 1 }}>
         <div className="about-section">
-            <img src="images/49DDF4C8-149B-4571-B1AB-905CF893587C.JPG" alt="Zach Berger" />
+        <img src={process.env.PUBLIC_URL + "/images/49DDF4C8-149B-4571-B1AB-905CF893587C.JPG"} alt="Zach Berger" />
             <p>
             I'm Zach Berger, a full stack web developer from New York, NY. Passionate about technology and driven by curiosity, I pursued web development to understand the underlying technology behind websites and build robust web applications.
             <br></br><br></br>
