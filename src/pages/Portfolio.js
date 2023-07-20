@@ -8,6 +8,13 @@ import { motion } from "framer-motion";
 function Portfolio() {
     const projects = [
         { 
+            image: process.env.PUBLIC_URL + "/images/jamvault.png", 
+            title: 'Jam Vault', 
+            description: 'This a social networking app to store and share concert memories.',
+            deployed: 'https://jamvault-3a4f37943c6d.herokuapp.com/', 
+            github: 'https://github.com/juliaghany/JamVault/' 
+        },
+        { 
             image: process.env.PUBLIC_URL + "/images/popcornportal.png",
             title: 'Popcorn Portal', 
             description: 'This is a movie discovery and information app.',
@@ -27,13 +34,6 @@ function Portfolio() {
             description: 'This is an astronimcal event tracking app.',
             deployed: 'https://stellarwatchapp.herokuapp.com/login', 
             github: 'https://github.com/mark-227-g/stellarwatch' 
-        },
-        { 
-            image: process.env.PUBLIC_URL + "/images/project3.png", 
-            title: 'Project 3', 
-            description: 'This project is a work in progress! Check back soon.',
-            deployed: '', 
-            github: '' 
         },
         { 
             image: process.env.PUBLIC_URL + "/images/codingcorner.png",
