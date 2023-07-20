@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/zachberger-portfolio/static/css/main.c29a7539.css",
-    "main.js": "/zachberger-portfolio/static/js/main.0559d80f.js",
+    "main.js": "/zachberger-portfolio/static/js/main.f77711c1.js",
     "index.html": "/zachberger-portfolio/index.html",
     "main.c29a7539.css.map": "/zachberger-portfolio/static/css/main.c29a7539.css.map",
-    "main.0559d80f.js.map": "/zachberger-portfolio/static/js/main.0559d80f.js.map"
+    "main.f77711c1.js.map": "/zachberger-portfolio/static/js/main.f77711c1.js.map"
   },
   "entrypoints": [
     "static/css/main.c29a7539.css",
-    "static/js/main.0559d80f.js"
+    "static/js/main.f77711c1.js"
   ]
 }
