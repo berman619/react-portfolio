@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 function Portfolio() {
     const projects = [
         { 
-            image: process.env.PUBLIC_URL + "/images/jamvault.png", 
+            image: process.env.PUBLIC_URL + "/images/jamvaultfavicon.png", 
             title: 'Jam Vault', 
             description: 'This a social networking app to store and share concert memories.',
             deployed: 'https://jamvault-3a4f37943c6d.herokuapp.com/', 
